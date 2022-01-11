@@ -1,7 +1,7 @@
 
 
 
-
+# Reads from file
 def reader(file):
     with open(file, 'r')as f:
         data = f.read()
