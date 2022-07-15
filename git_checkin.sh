@@ -10,7 +10,7 @@ function tag_commit() {
     echo "Commit Tag:"
     echo $tag
     echo ""
-    git tag -a $tag
+    git tag -a $tag -m "Daily commit ${today}"
     git push --tags
 
 }
